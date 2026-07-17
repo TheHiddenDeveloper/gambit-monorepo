@@ -1,0 +1,9 @@
+/chess-venv
+/__pycache__/
+/*.pyc
+/.DS_Store
+/*.sqlite3
+/app/**/*.pyc
+/app/**/__pycache__/
+/env/
+*.db
