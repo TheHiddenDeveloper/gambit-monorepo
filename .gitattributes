@@ -1,0 +1,2 @@
+packages/backend/app/stockfish/*.exe filter=lfs diff=lfs merge=lfs -text
+packages/backend/app/stockfish/*.dll filter=lfs diff=lfs merge=lfs -text
