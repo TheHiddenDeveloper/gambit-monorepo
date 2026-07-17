@@ -29,7 +29,7 @@ Monorepo with two packages: a Next.js frontend and a FastAPI backend.
 
 - **Stack**: FastAPI, SQLAlchemy 2.0, SQLite, Stockfish (python-chess, stockfish Python package), Pydantic V2, uvicorn
 - **DB**: SQLite at `chess.db` (auto-created; gitignored)
-- **Stockfish binary**: `app/stockfish/stockfish.exe` (committed)
+- **Stockfish binary**: `app/stockfish/stockfish.exe` (gitignored — place binary here or use system Stockfish)
 - **Endpoints**:
   - `POST /import_pgn/` — import PGN and persist game + moves
   - `GET /games/` — list games (paginated)

@@ -60,6 +60,10 @@ next-env.d.ts
 firebase-debug.log
 firestore-debug.log
 
+# large binaries (track via LFS in future)
+packages/backend/app/stockfish/*.exe
+packages/backend/app/stockfish/*.dll
+
 # tauri
 packages/frontend/src-tauri/target/
 packages/frontend/src-tauri/gen/schemas
